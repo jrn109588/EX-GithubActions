@@ -1,9 +1,3 @@
-/**
- * Calc Backend - ExpressJS (com suporte a testes Jasmine + Supertest)
- * Endpoints:
- *  POST /api/calc  -> { op: "add"|"sub"|"mul"|"div"|"pow", a: number, b: number }
- *  GET  /api/health -> retorna {status:"ok"}
- */
 const express = require('express');
 const cors = require('cors');
 
